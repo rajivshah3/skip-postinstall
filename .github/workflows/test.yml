@@ -22,3 +22,5 @@ jobs:
     - name: Test example project
       run: yarn
       working-directory: example
+      env:
+        SKIP_POSTINSTALL: 1
