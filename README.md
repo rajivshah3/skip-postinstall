@@ -26,7 +26,7 @@ Add `skip-postinstall || ` to your postinstall script:
 }
 ```
 
-When you want to skip your postinstall script, simply set the `SKIP_POSTINSTALL` environment variable:
+When you want to skip your postinstall script, simply set the `SKIP_POSTINSTALL` environment variable and run your command:
 
 ```shell
 SKIP_POSTINSTALL=1 yarn install
