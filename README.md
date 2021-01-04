@@ -30,7 +30,7 @@ SKIP_POSTINSTALL=1 yarn install
 
 ## Why?
 
-Currently, there is no built-in way to only skip a top-level postinstall in Yarn or NPM. You can do `--ignore-scripts`, but that will ignore the postinstall scripts in all of your dependencies as well. You can also try this approach, but it doesn't work on Windows:
+Currently, there is no built-in way to only skip a top-level postinstall in Yarn or NPM. You can use the `--ignore-scripts` option, but that will ignore the postinstall scripts in all of your dependencies as well. You can also try this approach, but it doesn't work on Windows:
 
 ```json
 "scripts" : { 
