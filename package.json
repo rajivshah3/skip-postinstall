@@ -1,7 +1,7 @@
 {
   "name": "skip-postinstall",
   "version": "1.0.0",
-  "description": "A simple, cross-platform way to skip a postinstall script with an environment variable",
+  "description": "A simple, cross-platform way to skip a postinstall script by setting an environment variable",
   "main": "index.js",
   "repository": "https://github.com/rajivshah3/skip-postinstall",
   "author": "Rajiv Shah <rajivshah1@icloud.com>",
