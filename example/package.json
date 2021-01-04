@@ -1,0 +1,12 @@
+{
+  "name": "skip-postinstall-example",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "postinstall": "skip-postinstall || node index.js"
+  },
+  "dependencies": {
+    "skip-postinstall": "../"
+  }
+}
