@@ -7,6 +7,10 @@
   "author": "Rajiv Shah <rajivshah1@icloud.com>",
   "license": "MIT",
   "private": false,
+  "files": [
+    "index.js"
+  ],
+  "bin": "index.js",
   "devDependencies": {
     "prettier": "^2.2.1"
   }
