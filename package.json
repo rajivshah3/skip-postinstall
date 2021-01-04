@@ -1,0 +1,10 @@
+{
+  "name": "skip-postinstall",
+  "version": "1.0.0",
+  "description": "Conditionally skip a postinstall script with an environment variable",
+  "main": "index.js",
+  "repository": "https://github.com/rajivshah3/skip-postinstall",
+  "author": "Rajiv Shah <rajivshah1@icloud.com>",
+  "license": "MIT",
+  "private": false
+}
